@@ -4,6 +4,7 @@
 <!-- Mirrored from templates.iqonic.design/product/qompac-ui-tailwind/tailwind/dist/dashboard/blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Dec 2023 09:50:57 GMT -->
 <head>
   @include('layouts.head')
+  @yield('style')
 </head>
 <body class="overflow-x-hidden text-body bg-body dark:bg-dark-bg" x-bind:class="[setting.theme_transition, setting.theme_style_appearance.join(' ')]">
     <!-- loader Start -->
