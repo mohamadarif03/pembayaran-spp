@@ -17,5 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/dasboard', function () {
-    return view('page.dashboard.index');
+    return view('dashboard.index');
 });
+Route::get('/classrooms', function () {
+    return view('dashboard.classroom.index');
+})->name('classrooms');
