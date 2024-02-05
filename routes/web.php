@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClassroomController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,10 @@ Route::get('/', function () {
 Route::get('/dasboard', function () {
     return view('dashboard.index');
 });
-Route::get('/classrooms', function () {
-    return view('dashboard.classroom.index');
-})->name('classrooms');
+
+Route::get('classroom', [ClassroomController::class, 'index']);
+Route::get('classroom/create', [ClassroomController::class, 'create']);
+Route::post('classroom', [ClassroomController::class, 'store']);
+Route::get('classroom/{classroom}/edit', [ClassroomController::class, 'edit']);
+Route::post('classroom/{classroom}', [ClassroomController::class, 'update']);
+Route::get('classroom/{classroom}/delete', [ClassroomController::class, 'destroy']);

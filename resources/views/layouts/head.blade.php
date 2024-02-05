@@ -14,22 +14,22 @@
 <link rel="shortcut icon" href="https://templates.iqonic.design/product/qompac-ui-tailwind/tailwind/dist/assets/images/favicon.ico" />
 
 <!-- SwiperSlider css -->
-<link rel="stylesheet" href="../assets/vendor/swiper-slider/swiper-bundle.min.css"/>
-<link rel="stylesheet" href="../assets/vendor/swiper-slider/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="{{asset("assets/vendor/swiper-slider/swiper-bundle.min.css")}}"/>
+<link rel="stylesheet" href="{{asset("assets/vendor/swiper-slider/swiper-bundle.min.css")}}"/>
 
 <!-- SweetAlert2 css -->
-<link rel="stylesheet" href="../assets/vendor/sweetalert2/dist/sweetalert2.min.css"/>
+<link rel="stylesheet" href="{{asset("assets/vendor/sweetalert2/dist/sweetalert2.min.css")}}"/>
 
 <!-- Uppy css -->
-<link rel="stylesheet" href="../assets/vendor/uppy/uppy.min.css"/>
+<link rel="stylesheet" href="{{asset("assets/vendor/uppy/uppy.min.css")}}"/>
 
 <!-- QuillEditor css -->
-<link rel="stylesheet" href="../assets/vendor/quill/quill.snow.css"/>
+<link rel="stylesheet" href="{{asset("assets/vendor/quill/quill.snow.css")}}"/>
 
 <!-- Flatpickr css -->
-<link rel="stylesheet" href="../assets/vendor/flatpickr/dist/flatpickr.min.css" />
+<link rel="stylesheet" href="{{asset("assets/vendor/flatpickr/dist/flatpickr.min.css")}}" />
 
 
-<link rel="stylesheet" href="../assets/css/core/libs.min.css">
-<link rel="stylesheet" href="../assets/css/tailwinde209.css?v=1.0.0">
-<link rel="stylesheet" href="../assets/css/responsivee209.css?v=1.0.0">
+<link rel="stylesheet" href="{{asset("assets/css/core/libs.min.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/tailwinde209.css?v=1.0.0")}}">
+<link rel="stylesheet" href="{{asset("assets/css/responsivee209.css?v=1.0.0")}}">

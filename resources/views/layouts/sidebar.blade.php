@@ -35,7 +35,7 @@
             </a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="index.html">
+            <a class="nav-link" aria-current="page" href="index.html">
                 <i class="icon" data-tp-toggle="tooltip" data-tp-placement="left" data-tp-title="Dashboard">
                     <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.4"
@@ -50,8 +50,10 @@
             </a>
         </li>
         <li class="nav-item ">
-            <a class="nav-item {{ request()->routeIs('classrooms') ? 'nav-link-active' : '' }}"" aria-current="page"
-                href="{{ route('classrooms') }}">
+            {{-- <a class="nav-item {{ request()->routeIs('classroom') ? 'nav-link-active' : '' }}"" aria-current="page"
+                href="{{ route('classroom') }}"> --}}
+            <a class="nav-link {{ ($active === "classroom") ? 'active' : '' }}" aria-current="page"
+                href="/classroom">
                 <i class="icon" data-tp-toggle="tooltip" data-tp-placement="left" data-tp-title="analytics">
                     <svg width="20" height="20" class="icon-20" viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +65,7 @@
                         </ellipse>
                     </svg>
                 </i>
-                <span class="item-name">Analytics</span>
+                <span class="item-name">Classroom</span>
             </a>
         </li>
     </ul>

@@ -11,7 +11,7 @@
     <div id="loading">
       <div class="loader simple-loader">
           <div class="loader-body scroll-auto">
-              <img src="../assets/images/loader.gif" alt="loader" class="image-loader img-fluid ">
+              <img src="{{asset("assets/images/loader.gif")}}" alt="loader" class="image-loader img-fluid ">
           </div>
       </div>    </div>
     <!-- loader END -->
