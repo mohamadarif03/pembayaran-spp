@@ -433,7 +433,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                                  src="../assets/images/avatar/01.png">
+                                                  src="{{asset("assets/images/avatar/01.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h5 class="mb-0  text-secondary-600 text-lg">Paige Turner</h5>
@@ -449,7 +449,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                                  src="../assets/images/avatar/02.png">
+                                                  src="{{asset("assets/images/avatar/02.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h5 class="mb-0  text-secondary-600 text-lg">Monty Carlo</h5>
@@ -464,7 +464,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                                  src="../assets/images/avatar/03.png">
+                                                  src="{{asset("assets/images/avatar/03.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h5 class="mb-0  text-secondary-600 text-lg">Paul Molive</h5>
@@ -479,7 +479,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                                  src="../assets/images/avatar/04.png">
+                                                  src="{{asset("assets/images/avatar/04.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h5 class="mb-0  text-lg text-secondary-600">Monty Carlo</h5>
@@ -524,7 +524,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-500/10 rounded-full dark:bg-primary-500/10"
-                                                  src="../assets/images/shapes/01.png">
+                                                  src="{{asset("assets/images/shapes/01.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h6 class="mb-0 text-black font-medium">Emma Watson Bni</h6>
@@ -543,7 +543,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-500/10 rounded-full dark:bg-primary-500/10"
-                                                  src="../assets/images/shapes/02.png">
+                                                  src="{{asset("assets/images/shapes/02.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h6 class="mb-0 text-black font-medium">New customer is join</h6>
@@ -561,7 +561,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-500/10 rounded-full dark:bg-primary-500/10"
-                                                  src="../assets/images/shapes/03.png">
+                                                  src="{{asset("assets/images/shapes/03.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h6 class="mb-0 text-black font-medium">Two customer is left</h6>
@@ -579,7 +579,7 @@
                                       <div class="flex items-center">
                                           <div>
                                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-500/10 rounded-full dark:bg-primary-500/10"
-                                                  src="../assets/images/shapes/04.png">
+                                                  src="{{asset("assets/images/shapes/04.png")}}">
                                           </div>
                                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                                               <h6 class="mb-0 text-black font-medium">New Mail from Fenny</h6>
@@ -772,7 +772,7 @@
                   <li x-data="{ open: false }" id="itemdropdown1">
                       <a class="py-0 flex items-center p-2 ml-2 hover:text-primary-500 active:text-primary-500 focus:text-primary-500 focus" href="#" id="profile-setting"
                           @click="open = !open" aria-expanded="false">
-                          <img src="../assets/images/avatars/01.png" alt="User-Profile"
+                          <img src="{{asset("assets/images/avatars/01.png")}}" alt="User-Profile"
                               class="h-12 w-12 rounded-full truncate" loading="lazy">
                           <div class="caption ml-3 d-none d-md-block ">
                               <h6 class="mb-0 caption-title mr-4">Austin Robertson</h6>
@@ -835,7 +835,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                  src="../assets/images/avatar/01.png">
+                                  src="{{asset("assets/images/avatar/01.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h5 class="mb-0  text-secondary-600 text-lg">Paige Turner</h5>
@@ -850,7 +850,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                  src="../assets/images/avatar/02.png">
+                                  src="{{asset("assets/images/avatar/02.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h5 class="mb-0  text-secondary-600 text-lg">Monty Carlo</h5>
@@ -864,7 +864,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                  src="../assets/images/avatar/03.png">
+                                  src="{{asset("assets/images/avatar/03.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h5 class="mb-0  text-secondary-600 text-lg">Paul Molive</h5>
@@ -878,7 +878,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-14 h-14 p-1 text-primary-400  rounded-full dark:bg-primary-800 "
-                                  src="../assets/images/avatar/04.png">
+                                  src="{{asset("assets/images/avatar/04.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h5 class="mb-0  text-lg text-secondary-600">Monty Carlo</h5>
@@ -915,7 +915,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-100 rounded-full dark:bg-primary-800 group-hover:bg-primary-200"
-                                  src="../assets/images/shapes/01.png">
+                                  src="{{asset("assets/images/shapes/01.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h6 class="mb-0  font-medium">Emma Watson Bni</h6>
@@ -931,7 +931,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-100 rounded-full dark:bg-primary-800 group-hover:bg-primary-200"
-                                  src="../assets/images/shapes/02.png">
+                                  src="{{asset("assets/images/shapes/02.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h6 class="mb-0  font-medium">New customer is join</h6>
@@ -947,7 +947,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-100 rounded-full dark:bg-primary-800 group-hover:bg-primary-200"
-                                  src="../assets/images/shapes/03.png">
+                                  src="{{asset("assets/images/shapes/03.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h6 class="mb-0  font-medium">Two customer is left</h6>
@@ -963,7 +963,7 @@
                       <div class="flex items-center">
                           <div>
                               <img class="w-10 h-10 p-1 text-primary-400 bg-primary-100 rounded-full dark:bg-primary-800 group-hover:bg-primary-200"
-                                  src="../assets/images/shapes/04.png">
+                                  src="{{asset("assets/images/shapes/04.png")}}">
                           </div>
                           <div class="ml-3 rtl:ml-0 rtl:mr-3 LR">
                               <h6 class="mb-0  font-medium">New Mail from Fenny</h6>
@@ -1059,7 +1059,7 @@
   </li>
   <li x-data="{ open: false }" id="itemdropdown1">
       <a class="py-0 flex items-center p-1 hover:text-primary-500" href="#" id="profile-setting"  @click="open = !open" aria-expanded="false">
-          <img src="../assets/images/avatars/01.png" alt="User-Profile" class="h-12 w-12 rounded-full truncate" loading="lazy">
+          <img src="{{asset("assets/images/avatars/01.png")}}" alt="User-Profile" class="h-12 w-12 rounded-full truncate" loading="lazy">
           
       </a>
       <ul x-show="open"

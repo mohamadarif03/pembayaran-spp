@@ -1,7 +1,6 @@
-<script src="{{asset("assets/js/alpine/sweet-alert.js")}}"></script>
+    <script src="{{asset("assets/js/alpine/sweet-alert.js")}}"></script>
     <script src="{{asset("assets/js/alpine/swiper-slider.js")}}"></script>
-    
-    
+
     <script src="{{asset("assets/js/setting-panel.js")}}"></script>
     <!-- Library Bundle Script -->
     <script src="{{asset("assets/js/core/libs.min.js")}}"></script>
@@ -24,19 +23,11 @@
     <!-- Dashboard Chart & Slider -->
     <script src="{{asset("assets/js/charts/dashboard.js")}}" defer></script>
     
-    
-    
-    
-    
-    
     <!-- Slider-tab Script -->
     <script src="{{asset("assets/js/plugins/slider-tabs.js")}}"></script>
     
-    
-    
-    
-    
-
     <!-- Script Start -->
-<script src="{{asset("assets/js/qompac-ui.js")}}"></script>
+    <script src="{{asset("assets/js/qompac-ui.js")}}"></script>
     <!-- Script End -->
+
+    
