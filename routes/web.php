@@ -22,12 +22,12 @@ Route::get('/dasboard', function () {
     return view('dashboard.index');
 });
 
-Route::get('classroom', [ClassroomController::class, 'index'])->name('classroom');
-Route::get('classroom/create', [ClassroomController::class, 'create']);
-Route::post('classroom', [ClassroomController::class, 'store']);
-Route::get('classroom/{classroom}/edit', [ClassroomController::class, 'edit']);
-Route::post('classroom/{classroom}', [ClassroomController::class, 'update']);
-Route::get('classroom/{classroom}/delete', [ClassroomController::class, 'destroy']);
+Route::get('classrooms', [ClassroomController::class, 'index'])->name('classroom');
+Route::get('classrooms/create', [ClassroomController::class, 'create'])->name('classroom.create');
+Route::post('classrooms', [ClassroomController::class, 'store'])->name('classroom.store');
+Route::get('classrooms/{classroom}', [ClassroomController::class, 'edit'])->name('classroom.edit');
+Route::put('classrooms/{classroom}', [ClassroomController::class, 'update'])->name('classroom.update');
+Route::delete('classrooms/{classroom}', [ClassroomController::class, 'destroy'])->name('classroom.destroy');
 
 
-Route::get('student', [StudentController::class, 'index']);
+Route::get('student', [StudentController::class, 'index'])->name('student');

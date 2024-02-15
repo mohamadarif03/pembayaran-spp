@@ -28,13 +28,15 @@
                 <h4 class="text-xl font-medium text-black dark:text-white mb-4">Classroom</h4>
             </div>
             <div class="p-6">
-                <form action="/classroom" method="POST" enctype="multipart/form-data">
-                  @csrf
+                <form action="{{ route('classroom.store') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
                     <div class="mb-4">
                         <label class="inline-block mb-2 text-secondary-500 dark:text-white text-sm">Nama Kelas </label>
-                        <input type="text" name="name" class="w-full px-4 py-2 text-secondary-500 border dark:bg-dark-card dark:border-secondary-800 rounded outline-none focus:border-primary-500 dark:focus:border-primary-500 focus:shadow dark:text-white text-sm" placeholder="Nama Kelas">
+                        <input type="text" name="name"
+                            class="w-full px-4 py-2 text-secondary-500 border dark:bg-dark-card dark:border-secondary-800 rounded outline-none focus:border-primary-500 dark:focus:border-primary-500 focus:shadow dark:text-white text-sm"
+                            placeholder="Nama Kelas">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
                 </form>
             </div>
         </div>

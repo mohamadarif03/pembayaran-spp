@@ -24,9 +24,9 @@ class ClassroomController extends Controller
     public function index()
     {
         $classrooms = $this->classroom->get();
-        return view('dashboard.classroom.index',[
+        return view('dashboard.classroom.index', [
             'active' => 'classroom',
-        ],compact('classrooms'));
+        ], compact('classrooms'));
     }
 
     /**
@@ -34,7 +34,7 @@ class ClassroomController extends Controller
      */
     public function create()
     {
-        return view('dashboard.classroom.create',[
+        return view('dashboard.classroom.create', [
             'active' => 'classroom'
         ]);
     }
@@ -45,7 +45,7 @@ class ClassroomController extends Controller
     public function store(StoreClassroomRequest $request)
     {
         $this->classroom->store($request->validated());
-        return redirect('classroom')->with('success' , 'Kelas Berhasil Ditambahkan');
+        return redirect()->route('classroom')->with('success', 'Kelas Berhasil Ditambahkan');
     }
 
     /**
@@ -62,9 +62,9 @@ class ClassroomController extends Controller
     public function edit(Classroom $classroom)
     {
         $this->classroom->get($classroom->id);
-        return view('dashboard.classroom.edit',[
+        return view('dashboard.classroom.edit', [
             'active' => 'classroom'
-        ],compact('classroom'));
+        ], compact('classroom'));
     }
 
     /**
@@ -72,8 +72,8 @@ class ClassroomController extends Controller
      */
     public function update(UpdateClassroomRequest $request, Classroom $classroom)
     {
-        $this->classroom->update($classroom->id , $request->all());
-        return redirect('classroom')->with('success' , 'Kelas Berhasil Di Ubah');
+        $this->classroom->update($classroom->id, $request->all());
+        return redirect('classroom')->with('success', 'Kelas Berhasil Di Ubah');
     }
 
     /**
@@ -82,6 +82,6 @@ class ClassroomController extends Controller
     public function destroy(Classroom $classroom)
     {
         $this->classroom->delete($classroom->id);
-        return back()->with('success' , 'Kelas Berhasil Di Hapus');
+        return back()->with('success', 'Kelas Berhasil Di Hapus');
     }
 }

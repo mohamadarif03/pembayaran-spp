@@ -50,10 +50,8 @@
             </a>
         </li>
         <li class="nav-item ">
-            {{-- <a class="nav-link {{ request()->routeIs('classroom') ? 'active' : '' }}" aria-current="page"
-                href="{{ route('classroom') }}"> --}}
-            <a class="nav-link {{ ($active === "classroom") ? 'active' : '' }}" aria-current="page"
-                href="/classroom">
+            <a class="nav-link {{ request()->routeIs('classroom') ? 'active' : '' }}" aria-current="page"
+                href="{{ route('classroom') }}">
                 <i class="icon" data-tp-toggle="tooltip" data-tp-placement="left" data-tp-title="analytics">
                     <svg width="20" height="20" class="icon-20" viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -69,10 +67,8 @@
             </a>
         </li>
         <li class="nav-item ">
-            {{-- <a class="nav-item {{ request()->routeIs('classroom') ? 'nav-link-active' : '' }}"" aria-current="page"
-                href="{{ route('classroom') }}"> --}}
-            <a class="nav-link" aria-current="page"
-                href="/student">
+            <a class="nav-item {{ request()->routeIs('student') ? 'nav-link-active' : '' }}"" aria-current="page"
+                href="{{ route('student') }}">
                 <i class="icon" data-tp-toggle="tooltip" data-tp-placement="left" data-tp-title="analytics">
                     <svg width="20" height="20" class="icon-20" viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
